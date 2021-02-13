@@ -14,9 +14,9 @@ export default function Profile(props) {
                 <form>
                     <div className="row">
                     <p className="text-muted text-center">Name: <strong>Sanjay</strong></p><hr />
-                    <p className="text-muted text-center">Surname <strong>Sharma</strong></p><hr />
+                    <p className="text-muted text-center">Surname: <strong>Sharma</strong></p><hr />
                     <p className="text-muted text-center">ID: <strong>#1</strong></p><hr />
-                    <p className="text-muted text-center">Level <strong>premium</strong></p><hr />
+                    <p className="text-muted text-center">Level: <strong>premium</strong></p><hr />
 
                     </div>
                 </form>

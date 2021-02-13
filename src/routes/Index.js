@@ -10,6 +10,7 @@ import EmailVerify from '../modules/auth/emailVerify/Index';
 import Login from '../modules/auth/login/Index';
 import ForgetPassword from '../modules/auth/forgetPassword/Index';
 import ResetPassword from '../modules/auth/resetPassword/Index';
+import NotFound from '../components/notfound';
 const Index = () => {
     return (
         <Router>
@@ -23,6 +24,7 @@ const Index = () => {
                 <Route component={EmailVerify} path = "/emailverify" />                
                 <Route component={ForgetPassword} path='/forget-password' exact />
                 <Route component={ResetPassword} path='/reset-password' exact />
+                <Route component={NotFound} />
             </Switch>
             <Footer />
         </Router>
