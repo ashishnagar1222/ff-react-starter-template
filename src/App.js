@@ -1,9 +1,10 @@
 import './App.css';
+import SignUp from './modules/auth/signup/Index';
 
 function App() {
   return (
    <div>
-     FF-react-starter-template
+     <SignUp />
    </div>
   );
 }
