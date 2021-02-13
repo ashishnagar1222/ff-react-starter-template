@@ -1,10 +1,10 @@
 import './App.css';
-import SignUp from './modules/auth/signup/Index';
+import Index from './routes/Index';
 
 function App() {
   return (
    <div>
-     <SignUp />
+    <Index/>
    </div>
   );
 }
