@@ -1,9 +1,10 @@
 import './App.css';
+import Index from './routes/Index';
 
 function App() {
   return (
    <div>
-     FF-react-starter-template
+    <Index/>
    </div>
   );
 }
