@@ -8,7 +8,7 @@ import aplay from '../../assets/App_Store_Badge.svg';
 
 const Footer = () => {
     return (
-        <div className='container-fluid mt-5 pt-5 pb-0 mb-0 bg-light'>
+        <div className='container-fluid mt-5 pt-5 pb-0 mb-0 bg-light '>
             <div className='container-fluid pb-4 px-5'>
                 <div className='row'>
                     <div className='col-md-3 mb-5 d-flex flex-row justify-content-evenly'>
